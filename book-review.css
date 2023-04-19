@@ -1,5 +1,5 @@
 html {
-    background-color: beige;
+    background-color: rgb(187, 212, 213);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -8,20 +8,23 @@ body {
 }
 
 header {
-    padding: 12px;
+    background-color: rgba(156, 192, 193, 0.7);
+    padding: 24px;
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 24px;
+    border-bottom: 2px solid rgba(86, 106, 107, .4);
 }
 
 footer {
-    background-color: burlywood;
+    background-color: rgba(156, 192, 193, 0.7);
     margin-top: 24px;
     padding: 24px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 24px;
     align-items: center;
+    border-top: 2px solid rgba(86, 106, 107, .4);
 }
 
 main {
@@ -30,12 +33,13 @@ main {
 }
 
 .main-page-book-review {
-    background-color: white;
+    background-color: rgba(232, 221, 220, 0.75);
     border: 1px, solid, lightblue;
     padding: 24px;
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 24px;
+    border: 1px solid rgba(86, 106, 107, .4);
 }
 
 .book-cover {
