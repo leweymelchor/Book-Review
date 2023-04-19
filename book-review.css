@@ -1,23 +1,24 @@
 html {
-    background-color: rgb(187, 212, 213);
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    margin: 0
+    margin: 0;
+    background-color: #0B172A70;
 }
 
 header {
-    background-color: rgba(156, 192, 193, 0.7);
+    background-color: #bc412345;
     padding: 24px;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr auto;
     column-gap: 24px;
     border-bottom: 2px solid rgba(86, 106, 107, .4);
 }
 
 footer {
-    background-color: rgba(156, 192, 193, 0.7);
+    background-color: #bc412345;
     margin-top: 24px;
     padding: 24px;
     display: grid;
@@ -33,7 +34,7 @@ main {
 }
 
 .main-page-book-review {
-    background-color: rgba(232, 221, 220, 0.75);
+    background-color: #46394020;
     border: 1px, solid, lightblue;
     padding: 24px;
     display: grid;
@@ -68,6 +69,10 @@ main {
 
 .seperate {
     padding: 10px;
+}
+
+.header-title {
+    font-weight: bold;
 }
 
 input {
