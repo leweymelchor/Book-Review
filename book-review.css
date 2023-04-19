@@ -9,12 +9,19 @@ body {
 
 header {
     padding: 12px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 24px;
 }
 
 footer {
     background-color: burlywood;
     margin-top: 24px;
     padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    align-items: center;
 }
 
 main {
@@ -26,11 +33,16 @@ main {
     background-color: white;
     border: 1px, solid, lightblue;
     padding: 24px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 24px;
 }
 
 .book-cover {
     width: 200px;
     height: auto;
+    grid-row: 1 / 6;
+    align-self: center;
 }
 
 .book-title {
@@ -50,6 +62,10 @@ main {
     padding: 24px
 }
 
+.seperate {
+    padding: 10px;
+}
+
 input {
     border: 1px, solid, darkgray;
     border-radius: 4px;
@@ -67,3 +83,9 @@ button {
     padding: 12px;
     font-size: 110%;
 }
+
+/* align-items
+column-gap
+display
+grid-row-end
+grid-template-columns */
