@@ -1,17 +1,17 @@
 # Book-Review
 
 ## Description:
-A basic web page to add reviews to books.
+A basic web page to add reviews to books. The main page is a list view of all books with details about the books and ratings. The detail page will show you similar information to the main page but specifics about the book, and also show the books reviews. Lastly, the create page will allow you to create your own review for a book.
 
 ## Project Goals:
-learn to work with HTML and CSS to build a simple book review web page.
+Learn to work with HTML and CSS to build a simple book review web page. I aim to learn a little about styling a page with css, and creating html forms.
 
 - I utilized HTML's the fundamental five to neatly code html files keeping focus on proper formatting
-    - <!DOCTYPE html>
-    - html
-    - head
-    - title
-    - body
+    - `<!DOCTYPE html>`
+    - `html`
+    - `head`
+    - `title`
+    - `body`
 
 - I used my knowledge of css selectors to style multiple html documents at once
     - class .
